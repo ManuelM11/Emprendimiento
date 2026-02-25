@@ -17,54 +17,47 @@ import CartBtn from "./CartBtn";
 const data: NavMenu = [
   {
     id: 1,
-    label: "Shop",
+    label: "Productos",
     type: "MenuList",
     children: [
       {
         id: 11,
-        label: "Men's clothes",
-        url: "/shop#men-clothes",
-        description: "In attractive and spectacular colors and designs",
+        label: "Poleras Compression",
+        url: "/shop#compression",
+        description: "Ropa que se ajusta a tu rendimiento",
       },
       {
         id: 12,
-        label: "Women's clothes",
-        url: "/shop#women-clothes",
-        description: "Ladies, your style and tastes are important to us",
+        label: "Shorts y Joggers",
+        url: "/shop#shorts",
+        description: "Para cada tipo de entrenamiento",
       },
       {
         id: 13,
-        label: "Kids clothes",
-        url: "/shop#kids-clothes",
-        description: "For all ages, with happy and beautiful colors",
+        label: "Accesorios Gym",
+        url: "/shop#accesorios",
+        description: "Complementa tu entrenamiento",
       },
       {
         id: 14,
-        label: "Bags and Shoes",
-        url: "/shop#bag-shoes",
-        description: "Suitable for men, women and all tastes and styles",
+        label: "Oversize",
+        url: "/shop#oversize",
+        description: "Estilo urbano con actitud fitness",
       },
     ],
   },
   {
     id: 2,
     type: "MenuItem",
-    label: "On Sale",
+    label: "Ofertas",
     url: "/shop#on-sale",
     children: [],
   },
   {
     id: 3,
     type: "MenuItem",
-    label: "New Arrivals",
+    label: "Novedades",
     url: "/shop#new-arrivals",
-    children: [],
-  },
-  {
-    id: 4,
-    type: "MenuItem",
-    label: "Brands",
-    url: "/shop#brands",
     children: [],
   },
 ];
@@ -115,7 +108,7 @@ const TopNavbar = () => {
           <InputGroup.Input
             type="search"
             name="search"
-            placeholder="Search for products..."
+            placeholder="Buscar productos..."
             className="bg-transparent placeholder:text-black/40"
           />
         </InputGroup>

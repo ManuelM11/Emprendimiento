@@ -14,7 +14,7 @@ const NewsLetterSection = () => {
           "font-bold text-[32px] md:text-[40px] text-white mb-9 md:mb-0",
         ])}
       >
-        STAY UP TO DATE ABOUT OUR LATEST OFFERS
+        MANTENTE AL DÍA CON NUESTRAS ÚLTIMAS OFERTAS
       </p>
       <div className="flex items-center">
         <div className="flex flex-col w-full max-w-[349px] mx-auto">
@@ -32,7 +32,7 @@ const NewsLetterSection = () => {
             <InputGroup.Input
               type="email"
               name="email"
-              placeholder="Enter your email address"
+              placeholder="Ingresa tu correo electrónico"
               className="bg-transparent placeholder:text-black/40 placeholder:text-sm sm:placeholder:text-base"
             />
           </InputGroup>
@@ -42,7 +42,7 @@ const NewsLetterSection = () => {
             aria-label="Subscribe to Newsletter"
             type="button"
           >
-            Subscribe to Newsletter
+            Suscribirme
           </Button>
         </div>
       </div>

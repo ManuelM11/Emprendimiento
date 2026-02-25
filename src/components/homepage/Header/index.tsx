@@ -22,7 +22,7 @@ const Header = () => {
               "text-4xl lg:text-[64px] lg:leading-[64px] mb-5 lg:mb-8",
             ])}
           >
-            FIND CLOTHES THAT MATCHES YOUR STYLE
+            YOUR HOUSE YOUR RULES
           </motion.h2>
           <motion.p
             initial={{ y: "100px", opacity: 0 }}
@@ -31,9 +31,8 @@ const Header = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-black/60 text-sm lg:text-base mb-6 lg:mb-8 max-w-[545px]"
           >
-            Browse through our diverse range of meticulously crafted garments,
-            designed to bring out your individuality and cater to your sense of
-            style.
+            Ropa de gimnasio diseñada para quienes entrenan sin excusas.
+            Rendimiento, comodidad y estilo en cada prenda.
           </motion.p>
           <motion.div
             initial={{ y: "100px", opacity: 0 }}
@@ -45,7 +44,7 @@ const Header = () => {
               href="/shop"
               className="w-full md:w-52 mb-5 md:mb-12 inline-block text-center bg-black hover:bg-black/80 transition-all text-white px-14 py-4 rounded-full hover:animate-pulse"
             >
-              Shop Now
+              Ver Productos
             </Link>
           </motion.div>
           <motion.div
@@ -60,7 +59,7 @@ const Header = () => {
                 <AnimatedCounter from={0} to={200} />+
               </span>
               <span className="text-xs xl:text-base text-black/60 text-nowrap">
-                International Brands
+                Productos Fitness
               </span>
             </div>
             <Separator
@@ -72,7 +71,7 @@ const Header = () => {
                 <AnimatedCounter from={0} to={2000} />+
               </span>
               <span className="text-xs xl:text-base text-black/60 text-nowrap">
-                High-Quality Products
+                Productos de Calidad
               </span>
             </div>
             <Separator
@@ -84,7 +83,7 @@ const Header = () => {
                 <AnimatedCounter from={0} to={3000} />+
               </span>
               <span className="text-xs xl:text-base text-black/60 text-nowrap">
-                Happy Customers
+                Clientes Satisfechos
               </span>
             </div>
           </motion.div>
@@ -94,7 +93,7 @@ const Header = () => {
           whileInView={{ y: "0", opacity: 1, rotate: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 2.3, duration: 0.8 }}
-          className="relative md:px-4 min-h-[448px] md:min-h-[428px] bg-cover bg-top xl:bg-[center_top_-1.6rem] bg-no-repeat bg-[url('/images/header-res-homepage.png')] md:bg-[url('/images/header-homepage.png')]"
+          className="relative md:px-4 min-h-[448px] md:min-h-[428px] bg-cover bg-top xl:bg-[center_top_-1.6rem] bg-no-repeat bg-[url('/images/header_homepage.jpg')] md:bg-[url('/images/header_homepage.jpg')]"
         >
           <Image
             priority

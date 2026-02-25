@@ -9,9 +9,9 @@ import { Review } from "@/types/review.types";
 export const newArrivalsData: Product[] = [
   {
     id: 1,
-    title: "T-shirt with Tape Details",
-    srcUrl: "/images/pic1.png",
-    gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
+    title: "OVERSIZE STYLE",
+    srcUrl: "/images/style1.jfif",
+    gallery: ["/images/style1.jfif"],
     price: 120,
     discount: {
       amount: 0,
@@ -21,9 +21,9 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 2,
-    title: "Skinny Fit Jeans",
-    srcUrl: "/images/pic2.png",
-    gallery: ["/images/pic2.png"],
+    title: "Polera Compression Manga Corta",
+    srcUrl: "/images/compression1.jfif",
+    gallery: ["/images/compression1.jfif", "/images/unnamed.jpg"],
     price: 260,
     discount: {
       amount: 0,
@@ -33,9 +33,9 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 3,
-    title: "Chechered Shirt",
-    srcUrl: "/images/pic3.png",
-    gallery: ["/images/pic3.png"],
+    title: "Polera Compression Manga Larga",
+    srcUrl: "/images/compression2.jfif",
+    gallery: ["/images/compression2.jfif", "/images/unnamed.jpg"],
     price: 180,
     discount: {
       amount: 0,
@@ -60,9 +60,9 @@ export const newArrivalsData: Product[] = [
 export const topSellingData: Product[] = [
   {
     id: 5,
-    title: "Vertical Striped Shirt",
-    srcUrl: "/images/pic5.png",
-    gallery: ["/images/pic5.png", "/images/pic10.png", "/images/pic11.png"],
+    title: "OVERSIZE STYLE",
+    srcUrl: "/images/style1.jfif",
+    gallery: ["/images/style1.jfif"],
     price: 232,
     discount: {
       amount: 0,
@@ -72,9 +72,9 @@ export const topSellingData: Product[] = [
   },
   {
     id: 6,
-    title: "Courage Graphic T-shirt",
-    srcUrl: "/images/pic6.png",
-    gallery: ["/images/pic6.png", "/images/pic10.png", "/images/pic11.png"],
+    title: "Polera Compression Manga Corta",
+    srcUrl: "/images/compression1.jfif",
+    gallery: ["/images/compression1.jfif", "/images/unnamed.jpg"],
     price: 145,
     discount: {
       amount: 0,
@@ -84,9 +84,9 @@ export const topSellingData: Product[] = [
   },
   {
     id: 7,
-    title: "Loose Fit Bermuda Shorts",
-    srcUrl: "/images/pic7.png",
-    gallery: ["/images/pic7.png"],
+    title: "Polera Compression Manga Larga",
+    srcUrl: "/images/compression2.jfif",
+    gallery: ["/images/compression2.jfif", "/images/unnamed.jpg"],
     price: 80,
     discount: {
       amount: 0,
@@ -96,9 +96,9 @@ export const topSellingData: Product[] = [
   },
   {
     id: 8,
-    title: "Faded Skinny Jeans",
-    srcUrl: "/images/pic8.png",
-    gallery: ["/images/pic8.png"],
+    title: "OVERSIZE STYLE",
+    srcUrl: "/images/style1.jfif",
+    gallery: ["/images/style1.jfif"],
     price: 210,
     discount: {
       amount: 0,
@@ -164,42 +164,47 @@ export const reviewsData: Review[] = [
     id: 1,
     user: "Alex K.",
     content:
-      '"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”',
+      "La polera de compression es increible. Se ajusta perfecto al cuerpo y me da soporte total en mis entrenamientos de pesas. La calidad del material es de otro nivel.",
     rating: 5,
     date: "August 14, 2023",
   },
   {
     id: 2,
     user: "Sarah M.",
-    content: `"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”`,
+    content:
+      "Llevo un mes entrenando con la ropa de House Owners y la diferencia se nota. La tela transpira super bien y no pierde forma despues de lavarla. 100% recomendada.",
     rating: 5,
     date: "August 15, 2023",
   },
   {
     id: 3,
     user: "Ethan R.",
-    content: `"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."`,
+    content:
+      "La polera oversize es perfecta para mis sesiones de gym. Comoda, fresca y con un estilo que se ve brutal. Ya me compre tres colores diferentes.",
     rating: 5,
     date: "August 16, 2023",
   },
   {
     id: 4,
     user: "Olivia P.",
-    content: `"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."`,
+    content:
+      "Buscaba ropa de gym que fuera funcional y que se viera bien. House Owners tiene exactamente eso. La compression manga larga es mi favorita para cardio.",
     rating: 5,
     date: "August 17, 2023",
   },
   {
     id: 5,
     user: "Liam K.",
-    content: `"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."`,
+    content:
+      "Your House Your Rules no es solo un slogan, se siente en la calidad de cada prenda. Entreno crossfit y la ropa aguanta todo. Mejor marca de ropa gym que he probado.",
     rating: 5,
     date: "August 18, 2023",
   },
   {
     id: 6,
     user: "Samantha D.",
-    content: `"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."`,
+    content:
+      "Los shorts son super comodos para entrenar pierna. El material es ligero, no se sube y tiene buen rango de movimiento. Ya soy clienta fija de House Owners.",
     rating: 5,
     date: "August 19, 2023",
   },
@@ -212,7 +217,7 @@ export default function Home() {
       <Brands />
       <main className="my-[50px] sm:my-[72px]">
         <ProductListSec
-          title="NEW ARRIVALS"
+          title="NOVEDADES"
           data={newArrivalsData}
           viewAllLink="/shop#new-arrivals"
         />
@@ -221,7 +226,7 @@ export default function Home() {
         </div>
         <div className="mb-[50px] sm:mb-20">
           <ProductListSec
-            title="top selling"
+            title="MAS VENDIDOS"
             data={topSellingData}
             viewAllLink="/shop#top-selling"
           />

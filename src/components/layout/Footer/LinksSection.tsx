@@ -6,52 +6,52 @@ import { cn } from "@/lib/utils";
 const footerLinksData: FooterLinks[] = [
   {
     id: 1,
-    title: "company",
+    title: "empresa",
     children: [
       {
         id: 11,
-        label: "about",
+        label: "sobre nosotros",
         url: "#",
       },
       {
         id: 12,
-        label: "features",
+        label: "nuestra historia",
         url: "#",
       },
       {
         id: 13,
-        label: "works",
+        label: "tiendas",
         url: "#",
       },
       {
         id: 14,
-        label: "career",
+        label: "trabaja con nosotros",
         url: "#",
       },
     ],
   },
   {
     id: 2,
-    title: "help",
+    title: "ayuda",
     children: [
       {
         id: 21,
-        label: "customer support",
+        label: "atención al cliente",
         url: "#",
       },
       {
         id: 22,
-        label: "delivery details",
+        label: "detalles de envío",
         url: "#",
       },
       {
         id: 23,
-        label: "terms & conditions",
+        label: "términos y condiciones",
         url: "#",
       },
       {
         id: 24,
-        label: "privacy policy",
+        label: "política de privacidad",
         url: "#",
       },
     ],
@@ -62,49 +62,49 @@ const footerLinksData: FooterLinks[] = [
     children: [
       {
         id: 31,
-        label: "account",
+        label: "mi cuenta",
         url: "#",
       },
       {
         id: 32,
-        label: "manage deliveries",
+        label: "seguir pedido",
         url: "#",
       },
       {
         id: 33,
-        label: "orders",
+        label: "pedidos",
         url: "#",
       },
       {
         id: 34,
-        label: "payments",
+        label: "pagos",
         url: "#",
       },
     ],
   },
   {
     id: 4,
-    title: "resources",
+    title: "productos",
     children: [
       {
         id: 41,
-        label: "Free eBooks",
-        url: "#",
+        label: "Compression",
+        url: "/shop#compression",
       },
       {
         id: 42,
-        label: "development tutorial",
-        url: "#",
+        label: "shorts",
+        url: "/shop#shorts",
       },
       {
         id: 43,
-        label: "How to - Blog",
-        url: "#",
+        label: "Accesorios",
+        url: "/shop#accesorios",
       },
       {
         id: 44,
-        label: "youtube playlist",
-        url: "#",
+        label: "oversize",
+        url: "/shop#oversize",
       },
     ],
   },

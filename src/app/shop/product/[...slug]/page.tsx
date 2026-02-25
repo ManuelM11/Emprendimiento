@@ -40,7 +40,7 @@ export default function ProductPage({
         <Tabs />
       </div>
       <div className="mb-[50px] sm:mb-20">
-        <ProductListSec title="You might also like" data={relatedProductData} />
+        <ProductListSec title="TAMBIÉN TE PUEDE GUSTAR" data={relatedProductData} />
       </div>
     </main>
   );
